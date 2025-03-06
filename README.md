@@ -4,15 +4,28 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+first:
+```bash
+npm install
+```
+
+second:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+
+
+backend run:
+1.
+```bash
+
+cd backend
+```
+2.
+```bash
+uvicorn main:app --reload
+```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
